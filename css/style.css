@@ -81,3 +81,36 @@ body {
     color: #E5E7EB;
     font-weight: 300;
 }
+
+.features {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-group {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.features h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.feature-img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.feature-txt {
+    width: 150px;
+    color: #1F2937;
+    font-weight: 400;
+    text-align: center;
+}
+
